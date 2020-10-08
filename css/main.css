@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #48556a;
+}
+
+body {
+  background-color: #ecf2f8;
+  color: #6d7f97;
+  font-size: 13px;
+  font-family: 'Monrope', sans-serif;
+  line-height: 2;
+  width: 100vw;
+  height: 100%;
+}
+
+.container {
+  width: calc(100% - 3rem);
+  margin: 2rem auto;
+}
+
+.preview {
+  width: 100%;
+  background: #fff;
+  border-radius: .7rem;
+  overflow: hidden;
+  box-shadow: 0px 15px 50px -50px #000;
+}
+
+.preview__top {
+  width: 100%;
+  position: relative;
+}
+
+.preview__top img {
+  width: 100%;
+}
+
+.preview__body {
+  margin: 2em;
+}
+
+.preview__body h2,
+.preview__body p {
+  margin-bottom: .8em;
+  line-height: 1.7;
+}
+
+.preview__body h2 {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.preview__footer {
+  height: calc(20% - 1em);
+  display: flex;
+}
+
+.preview__footer .profil {
+  height: 100%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  padding: 0 1.5em 1.5em;
+}
+
+.preview__footer .profil__images {
+  grid-row: 1 / span 2;
+  display: flex;
+  margin: .5em;
+}
+
+.preview__footer .profil__images .photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.preview__footer .profil__images .photo img {
+  width: 100%;
+}
+
+.preview__footer .profil .profil--name,
+.preview__footer .profil .date {
+  margin: 0;
+  margin-left: 1em;
+}
+
+.preview__footer .profil .profil--name {
+  color: #48556a;
+  font-weight: 700;
+}
+
+.preview__footer .share {
+  padding: 0 2em 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+.preview__footer .share__button {
+  background: #ecf2f8;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: .2em .5em;
+}
+
+.share__panel {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */
