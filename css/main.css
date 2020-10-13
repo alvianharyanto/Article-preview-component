@@ -34,13 +34,10 @@ body {
 
 @media (min-width: 1000px) {
   .container {
-    max-width: 55rem;
+    max-width: 48rem;
   }
   .article {
     max-height: 21rem !important;
-  }
-  .article__main {
-    padding: 0 1rem;
   }
   .article__main--footer {
     position: unset !important;
@@ -74,7 +71,7 @@ body {
   }
   .article__top {
     max-height: 30rem !important;
-    max-width: 25.5rem;
+    flex-basis: 46rem;
   }
   .article__top img {
     height: 100%;
@@ -107,7 +104,7 @@ body {
 }
 
 .article__main--body {
-  margin: 2.6em 2em 2em;
+  margin: 2.6em 3em 1em;
 }
 
 .article__main--body h2,
@@ -117,19 +114,19 @@ body {
 }
 
 .article__main--body h2 {
-  font-size: clamp(1em, 3.8vw, 1.3rem);
+  font-size: clamp(1.2em, 3.8vw, 1.3rem);
   font-weight: 700;
 }
 
 .article__main--body p {
-  font-size: clamp(1em, 3vw, 0.9rem);
+  font-size: clamp(0.8em, 3.5vw, 0.8rem);
   font-weight: 500;
 }
 
 .article__main--footer {
   height: auto;
   display: flex;
-  padding: .6em 2em 1em;
+  padding: 0 2.6em 1em;
   position: relative;
   font-size: clamp(0.8rem, 3.5vw, 0.9rem);
 }
